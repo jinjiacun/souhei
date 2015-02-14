@@ -1,0 +1,109 @@
+<include file="Public/header" />
+
+<body class="ContentBody">
+  <form method="post" enctype="multipart/form-data" name="myForm" id="myForm">
+<div class="MainDiv">
+<table width="99%" border="0" cellpadding="0" cellspacing="0" class="CContent">
+  <tr>
+      <th class="tablestyle_title" >添加监管机构</th>
+  </tr>
+  <tr>
+    <td class="CPanel">
+		
+		<table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+		
+		<tr align="center">
+			<td class="TablePanel">&nbsp;</td>
+	        </tr>
+			<TR>
+			<TD width="100%">
+				<fieldset style="height:100%;">
+				<legend>添加监管机构</legend>
+					  <table border="0" cellpadding="2" cellspacing="1" style="width:100%">
+					 
+					  <tr>
+					    <td nowrap align="right" width="30%">类型:</td>
+					    <td width="35%">
+                                            <select name="type" id="type">
+                                            <option value="002001">贵金属监管机构</option>
+                                            <option value="002002">外汇监管机构</option>
+                                            </select>
+                                            
+				            <span class="red">*</span></td>
+					  </tr>
+                                        
+                                          <tr>
+					    <td nowrap align="right" width="30%">标题:</td>
+					    <td width="35%"><input id="title" type="text" name="title" /><span class="red">*</span></td>
+					   </tr>
+                                           
+                                           <tr>
+					    <td nowrap align="right" width="30%">官网:</td>
+					    <td width="35%"><input id="website" type="text" name="website" /><span class="red">*</span></td>
+					   </tr>
+					 
+                                           <tr>
+					    <td nowrap align="right" width="30%">图片:</td>
+					    <td width="35%"><input id="pic" type="file" name="pic" /><span class="red">*</span></td>
+					   </tr>
+                                           
+                                           <tr>
+					    <td nowrap align="right" width="30%">内容:</td>
+					    <td width="35%"><textarea id="content" name="content"></textarea><span class="red">*</span></td>
+					   </tr>
+                                           
+					  </table>
+			  <br />
+				</fieldset>			</TD>
+		</TR>
+		</TABLE>
+	 </td>
+  </tr>
+		
+		<TR>
+			<TD colspan="2" align="center" height="50px">
+			<input type="submit" name="submit" value="保存" class="button" onclick="return validate()"/>　
+			<input type="button" name="Submit2" value="返回" class="button" onclick="window.history.go(-1);"/>
+			</TD>
+		</TR>
+		</TABLE>
+	
+	
+	 </td>
+  </tr>
+  </table>
+
+</div>
+</form>
+</body>
+</html>
+<script type="text/javascript">
+
+//提交审核
+function validate()
+{
+    var title = $('#title').val();
+    var website = $('#website').val();
+    var pic = $('#pic').val();
+
+    if ('' == title) {
+        alert('标题不为空');
+        return false;
+    }
+    
+    //网站不为空
+    if ('' == website) {
+        alert('网站不为空');
+        return false;
+    }
+    
+    //图片不为空
+    if ('' == pic) {
+        alert('图片不为空');
+        return false;
+    }
+    
+    return true;
+}
+</script>
+

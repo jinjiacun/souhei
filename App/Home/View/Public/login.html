@@ -1,0 +1,75 @@
+<!--登录--Begin-->   
+<div class="bd_wd"></div> 
+<div class="tcwindows1" id="tcwindows1">
+  <div class="close"><a>关闭</a></div>
+    <h3 class="shwang">登录搜黑</h3>
+    <div style="float: left;height: 20px;line-height: 20px;width: 325px; text-align:right; color:red;">
+    <span id='span_ex'></span></div>
+    <div class="tipbox1">
+         <span>账号：</span><input name="" type="text" class="input1" autocomplete="off" title="请输入手机号码" placeholder="请输入手机号码"/>
+         <p class="clears"></p>   
+         <span>密码：</span>
+          <p class="posti">
+           <input type="password" title="请输入密码" placeholder="请输入密码" class="post2" autocomplete="off"/></p>
+         <p class="clears"></p>   
+      <span style="height:1px; overflow:hidden">&nbsp;</span>
+      <input name="" type="checkbox" value="" class="check" autocomplete="off"/>下次自动登录
+      <a class="wangji" target='_blank' href="__APP__/home/user/find_password">忘记密码</a>
+      <p class="clears"></p>   
+         <span>&nbsp;</span><input name="submit" type="submit" value="登录" id="but2" class="but2"  />
+      <p class="clears"></p>           
+          <p class="mfzcs">什么！还没有搜黑网账号？<a target='_blank' href="__APP__/home/user/user_register" target='_blank'>免费注册</a></p>
+    </div>
+</div>
+<!--登录--End--> 
+<script type="text/javascript">
+  $(function(){ 
+    // document.onkeydown = function (e) {  
+    //   var code = document.all ? window.event : e;  
+    //   if (code.keyCode == 13) { 
+    //     $("#but2").click(); 
+    //   } 
+    // }
+    //用户登录
+    $('#but2').click(function(){
+          var mobile     = $(this).parents('.tipbox1').find('.input1').val();
+          var password   = $(this).parents('.tipbox1').find('.post2').val();
+          if(mobile == ""){ 
+              $('#span_ex').text("请输入登录账号！");
+              return false; 
+          }
+          if (password == "") {
+            $('#span_ex').text("请输入登录密码");
+            return false;
+          }
+          $.ajax({  
+              type:"post",  
+              url:"__APP__/Home/User/login",
+              timeout: 5000,  
+              dataType:"json", 
+              contentType: "application/x-www-form-urlencoded; charset=utf-8",
+              data:{
+                  mobile:mobile,
+                  password:password
+              },
+              success: function aa(data) { 
+                  if (data == 0) {
+                    window.location.reload(); 
+                  }else if (data == -1) {
+                    $('#span_ex').text("登录失败！");
+                    return false;
+                  }else if (data == -2) {
+                    $('#span_ex').text("用户名不存在或密码错误");
+                    return false;
+                  }else if (data == -3) {
+                    $('#span_ex').text("用户被限制登录");
+                    return false;
+                  }else if (data == -4) {
+                    $('#span_ex').text("用户访问的IP被限制");
+                    return false;
+                  } 
+              }  
+          })   
+    })
+});
+</script>

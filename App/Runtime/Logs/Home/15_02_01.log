@@ -1,0 +1,772 @@
+[ 2015-02-01T00:28:46+08:00 ] 192.168.1.63 /yms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined variable: aaa C:\wamp\www\yms\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2015-02-01T00:28:58+08:00 ] 192.168.1.63 /yms/index.php/Home/User/login/mobile/13906504204/password/111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2015-02-01T00:29:00+08:00 ] 192.168.1.63 /yms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2015-02-01T00:29:08+08:00 ] 192.168.1.63 /yms/index.php/home/user/user_center/d/2214
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2015-02-01T00:29:20+08:00 ] 192.168.1.65 /yms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined variable: aaa C:\wamp\www\yms\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2015-02-01T00:29:23+08:00 ] 192.168.1.63 /yms/index.php/Home/User/touxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 294 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 296 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 302 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 335 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 337 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 348 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+
+[ 2015-02-01T00:29:31+08:00 ] 192.168.1.65 /yms/index.php/Home/User/login/mobile/15800667691/password/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2015-02-01T00:29:32+08:00 ] 192.168.1.65 /yms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2015-02-01T00:29:35+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_hpt/resid/9/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: page_count C:\wamp\www\yms\App\Home\Controller\BaseController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000603s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\729d234efe720fab9e3011f52e3b6c90.php 第 366 行.
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\729d234efe720fab9e3011f52e3b6c90.php 第 366 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2015-02-01T00:29:36+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/265/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2015-02-01T00:29:36+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/264/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2015-02-01T00:29:36+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/266/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002906s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/238/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/239/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/256/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/237/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/236/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/235/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_yrz_hf/parent_id/234/uId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_wybg_hf/exposal_id/138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-02-01T00:29:37+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_wybg_hf/exposal_id/136
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2015-02-01T00:29:38+08:00 ] 192.168.1.65 /yms/index.php/Home/Query/query_hpt/resid/9/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: page_count C:\wamp\www\yms\App\Home\Controller\BaseController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000680s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\729d234efe720fab9e3011f52e3b6c90.php 第 366 行.
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\729d234efe720fab9e3011f52e3b6c90.php 第 366 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2015-02-01T00:29:44+08:00 ] 192.168.1.65 /yms/index.php/home/user/user_center/d/1534
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2015-02-01T00:29:52+08:00 ] 192.168.1.65 /yms/index.php/Home/User/touxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 294 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 296 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 302 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 335 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 337 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 348 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-02-01T00:30:01+08:00 ] 192.168.1.63 /yms/index.php/Home/User/touxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 294 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 296 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 302 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 335 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 337 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 348 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-02-01T00:30:59+08:00 ] 192.168.1.65 /yms/index.php/Home/User/touxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 294 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 296 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 302 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 335 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 337 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 348 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-02-01T00:31:02+08:00 ] 192.168.1.63 /yms/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+
+[ 2015-02-01T00:31:02+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_wrz/resid/2/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: page_count C:\wamp\www\yms\App\Home\Controller\BaseController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000818s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\095db809372f8e1f6254e4796f30fdef.php 第 388 行.
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\095db809372f8e1f6254e4796f30fdef.php 第 388 行.
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\095db809372f8e1f6254e4796f30fdef.php 第 388 行.
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\095db809372f8e1f6254e4796f30fdef.php 第 388 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-02-01T00:31:03+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_yrz_hf/parent_id/214/uId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003852s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2015-02-01T00:31:03+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_yrz_hf/parent_id/201/uId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2015-02-01T00:31:03+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_yrz_hf/parent_id/225/uId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2015-02-01T00:31:03+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_yrz_hf/parent_id/202/uId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2015-02-01T00:31:03+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_yrz_hf/parent_id/200/uId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2015-02-01T00:31:03+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_yrz_hf/parent_id/128/uId/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2015-02-01T00:31:04+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_wybg_hf/exposal_id/44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-02-01T00:31:04+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_wybg_hf/exposal_id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2015-02-01T00:31:04+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_wybg_hf/exposal_id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2015-02-01T00:31:04+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_wybg_hf/exposal_id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2015-02-01T00:31:05+08:00 ] 192.168.1.63 /yms/index.php/Home/Query/query_wrz/resid/2/p/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 52 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\CallapiController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: page_count C:\wamp\www\yms\App\Home\Controller\BaseController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\095db809372f8e1f6254e4796f30fdef.php 第 388 行.
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\095db809372f8e1f6254e4796f30fdef.php 第 388 行.
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\095db809372f8e1f6254e4796f30fdef.php 第 388 行.
+NOTIC: [8] Undefined index: is_anonymous C:\wamp\www\yms\App\Runtime\Cache\Home\095db809372f8e1f6254e4796f30fdef.php 第 388 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-02-01T00:31:27+08:00 ] 192.168.1.63 /yms/index.php/Home/User/touxiang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] Undefined variable: content C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 294 行.
+NOTIC: [8] Undefined variable: type C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 296 行.
+NOTIC: [8] Undefined variable: header C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 302 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 335 行.
+NOTIC: [8] Undefined variable: cookie_file C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 337 行.
+NOTIC: [2] curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 348 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' C:\wamp\www\yms\App\Home\Controller\UserController.class.php 第 303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+

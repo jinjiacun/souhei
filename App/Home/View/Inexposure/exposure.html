@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>黑平台曝光_贵金属交易市场黑幕曝光平台_搜黑</title>
+<meta name="keywords" content="搜黑，黑平台查询，黑平台曝光，贵金属黑平台，外汇黑平台"/>
+<meta name="description" content="搜黑,全国性的交易市场曝光平台，携手每一位投资人共同揭开交易市场的层层黑幕，为投资者甄选安全可靠的交易平台，营造国内绿色透明的交易环境。"/>
+<link rel="icon" href="__PUBLIC__/s.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/main.css"/>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/js/Validform_v5.3.2.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/main.js" ></script>
+</head>
+
+<body>
+<!--成功-->  
+<div class="yzsbai2">
+    <p id="tishi2"></p>
+    <input name="" type="button" value="确 定" class="xigs2" />
+</div>
+<!--失败-->
+<div class="yzsbai">
+    <p id="tishi"></p>
+    <input name="" type="button" value="确 定" class="xigs" />
+</div>
+<!--Begin--登录-->   
+<include file="Public:login" />
+<!--End--登录--> 
+<div id="wrap">
+
+<!--头部--Begin-->   
+  <include file="Public:top" />
+<!--头部--End--> 
+
+<!--内容--Begin-->     
+   <div id="content">
+     <div class="renzheng feifas">
+       <h2 class="bians">非法平台曝光台</h2>
+       <div class="txneirong">
+   		 <p class="txnr_ts">请如实填写申请企业或机构的相关信息后，提交认证。</p>
+       <form class="registerform" name="theForm" id="theForm" method="post" enctype="multipart/form-data" onsubmit="return ValidateFile()">
+         <div class="xzqyxz">
+                <span>企业性质：</span>
+                <select name="nature">
+                  <option value="003001">公司</option>
+                  <option value="003002">平台</option>
+                </select>
+                <span>所属行业：</span>
+                <select name="trade" class="gjshu">
+                  <option value="004001">贵金属</option>
+                  <option value="004002">外汇</option>
+                  <option value="004003">石油</option>
+                  <option value="004004">大宗商品</option>
+                  <option value="004005">其他</option>
+                </select>
+         </div>
+         <div class="txkuang  nobian">
+                <dl style="margin-top:20px;">
+                  <dt>公司名称：</dt>
+                  <dd>
+                    <input name="company_name" type="text" class="text1" datatype="s" nullmsg="不能为空！" /><span>*</span>
+                    <div class="Validform_checktip"></div>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>涉及金额：</dt>
+                  <dd>
+                    <input name="amount" type="text" class="text1" datatype="n | /^(\-)*(\d+)\.(\d\d).*$/"  ignore="ignore"  /><span>元</span>
+                    <div class="Validform_checktip"></div>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>公司网址：</dt>
+                  <dd>
+                    <input name="website" type="text" class="text1" datatype="url" ignore="ignore" />
+                    <div class="Validform_checktip"></div>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>曝光内容：</dt>
+                  <dd>
+                    <textarea name="content" class="textn" nullmsg="不能为空！" datatype="*" ></textarea><span>*</span>
+                    <div class="Validform_checktip"></div>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>附件上传：</dt>
+                  <dd><input name="pic_1" type="file" id="pic_1" />
+                  <p>图片格式： .gif .jpg .jpeg .png </p></dd>
+                </dl>
+                <dl>
+                  <dt>&nbsp;</dt><dd><input name="submit" type="submit" value="我要曝光" class="textn1" /></dd>
+                </dl>
+              </form>
+         </div>       
+       </div>   
+     </div>
+  </div>
+<!--内容--End--> 
+
+<!--底部--Begin-->     
+<include file="Public:footer" />
+<!--底部--End--> 
+</div>
+</body>
+<script type="text/javascript">
+    $(function(){
+      $(".registerform").Validform({
+        tiptype:function(msg,o,cssctl){
+          if(!o.obj.is("form")){
+            var objtip=o.obj.siblings(".Validform_checktip");
+            cssctl(objtip,o.type);
+            objtip.text(msg);
+          }
+        }
+      });
+      //表单提交成功关闭
+      $(".yzsbai2 .xigs2").click(function(){
+          $(".yzsbai2").hide();
+          $(".bd_wd2").hide();  
+          window.location.href="__APP__/Home/Ranking/machine"; 
+      });
+    })
+    //验证图片格式大小
+    function ValidateFile(){
+      var tmp     = document.getElementById("pic_1").value; 
+	    if(tmp != ""){
+        if(!/.(gif|jpg|jpeg|png|GIF|JPG|png)$/.test(tmp)){
+          $(".bd_wd").css("width", $(document).width());
+          $(".bd_wd").css("height", $(document).height());
+          $(".bd_wd").show();
+          $('#tishi').text("资质证明类型必须是.gif,jpeg,jpg,png中的一种");
+          $(".yzsbai").show();
+        }
+      }
+      //表单提交
+      var fd = new FormData(document.getElementById("theForm"));
+      //fd.append("content", content);
+      $.ajax({
+        url: "__URL__/exposure_ex",
+        type: "POST",
+        data: fd,
+        enctype: 'multipart/form-data',
+        processData: false,  // tell jQuery not to process the data
+        contentType: false   // tell jQuery not to set contentType
+      }).done(function( data ) {
+      if(data){
+        $(".bd_wd").css("width", $(document).width());
+        $(".bd_wd").css("height", $(document).height());
+        $(".bd_wd").show();
+        if (data == 0) {
+          $('#tishi2').text("曝光成功！");
+          $(".yzsbai2").show();
+          return false;
+        }else if(data == -1){
+          $('#tishi').text("曝光失败！");
+          $(".yzsbai").show();
+          return false;
+        }else if(data == 1){
+          $('#tishi').text("图片上传失败！");
+          $(".yzsbai").show();
+          return false;
+        }else if(data == 2){
+          $('#tishi').text("没有文件上传！");
+          $(".yzsbai").show();
+          return false;
+        }else if(data == 3){
+          $('#tishi').text("文件上传错误！");
+          $(".yzsbai").show();
+          return false;
+        }else if(data == 4){
+          $('#tishi').text("上传文件不能大于400kb！");
+          $(".yzsbai").show();
+          return false;
+        }else if(data == 5){
+          $('#tishi').text("图片格式错误！");
+          $(".yzsbai").show();
+          return false;
+        }else if(data == 6){
+          $('#tishi').text("还有必填项没有填写！");
+          $(".yzsbai").show();
+          return false;
+        }
+      }
+      });
+      return false;
+	  }
+</script>
+</html>
